@@ -1,0 +1,38 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "Vinicius Mesti",
+    "email" : "vini@gmail.com",
+    "referrer": "fde24595-0c0a-4f7d-8a53-6e71aae81cc3"
+}
+
+
+###
+
+
+GET http://localhost:3333/invites/fde24595-0c0a-4f7d-8a53-6e71aae81cc3
+
+
+###
+
+
+GET http://localhost:3333/subscribers/fde24595-0c0a-4f7d-8a53-6e71aae81cc3/ranking/clicks
+
+
+###
+
+
+GET http://localhost:3333/subscribers/fde24595-0c0a-4f7d-8a53-6e71aae81cc3/ranking/count
+
+
+###
+
+
+GET http://localhost:3333/subscribers/fde24595-0c0a-4f7d-8a53-6e71aae81cc3/ranking/position
+
+
+###
+
+
+GET http://localhost:3333/ranking
